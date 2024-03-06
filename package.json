@@ -1,6 +1,6 @@
 {
   "name": "@rickyli79/chain-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },
@@ -12,7 +12,7 @@
   "main": "bin/index.js",
   "scripts": {
     "test": "mocha -r ts-node/register --reporter spec --no-timeouts --colors test/**/*.test.ts",
-    "test-report": "mocha -r ts-node/register --reporter mochawesome --reporter-options reportDir=docs,reportTitle=Rich-JSON,reportPageTitle=Rich-JSON-report,reportFilename=index,autoOpen=true --no-timeouts --colors test/**/*.test.ts",
+    "test-report": "mocha -r ts-node/register --reporter mochawesome --reporter-options reportDir=docs,reportTitle=chain-handler,reportPageTitle=chain-handler-report,reportFilename=index,autoOpen=true --no-timeouts --colors test/**/*.test.ts",
     "build": "tsc -p tsconfig/tsconfig.build.json"
   },
   "author": {
